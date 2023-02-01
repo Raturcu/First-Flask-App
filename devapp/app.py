@@ -12,9 +12,12 @@ def register():
         print(fullname)
         print(username)
         print(password)
-        print(email) 
-        
+        print(email)         
     return render_template("register.html")
+
+@app.route("/login",methods=['GET','POST'])
+def login():
+    return render_template("login.html")
 
 if __name__=="__main__":
     app.run(debug=True)

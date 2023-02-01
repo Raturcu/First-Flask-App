@@ -17,3 +17,27 @@ body{
     color: aliceblue;
 
 }
+.form-control{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+
+}
+
+.form-control-btn-btn-primary{
+    height: 45px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    font-family: montserrat;
+    font-size: 20px;
+}
+h5{
+    font-size: 30px;
+}
+.btn-btn-dark{
+    color: white;
+
+}

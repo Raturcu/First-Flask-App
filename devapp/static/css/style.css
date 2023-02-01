@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    height: 100vh;
+    overflow: hidden;
+    background: url(/static/images/1.jpg);
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    font-size: 20px;
+    color: aliceblue;
+
+}

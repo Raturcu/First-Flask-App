@@ -1,15 +1,3 @@
 flask
-click            
-colorama         
-Flask             
-Flask-Login       
-Flask-SQLAlchemy  
-greenlet          
-itsdangerous      
-Jinja2            
-MarkupSafe        
-pip               
-setuptools        
-SQLAlchemy        
-typing_extensions 
-Werkzeug
+Flask-SQLAlchemy
+flask-login

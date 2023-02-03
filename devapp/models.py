@@ -1,10 +1,6 @@
-from . import db
+from devapp import db
 from flask_login import UserMixin
 from sqlalchemy.sql import func 
-import sqlalchemy_orm import Model
-
-#type: ignore
-Base=Model();
 
 class Notes(db.Model):
     
@@ -19,5 +15,5 @@ class Users(db.Model,UserMixin):
     username=db.Column(db.String(150))
     email=db.Column(db.String(150),unique=True)
     password=db.Column(db.String(150))
-    #notes=db.Relationship('Notes')
+    notes=db.relationship('Notes')
     

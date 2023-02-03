@@ -1,4 +1,3 @@
-from venv import create
 from devapp import create_app
 
 app=create_app()

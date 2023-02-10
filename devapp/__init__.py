@@ -4,7 +4,7 @@ from os import path
 
 
 db=SQLAlchemy();
-#DB_NAME="databse.db"
+DB_NAME="databse.db"
 
 def create_app():
     app=Flask(__name__)
